@@ -1,7 +1,8 @@
 {
-  "analysis": "Post-review learned comparators",
+  "analysis": "Revised post-review learned comparators",
   "fit_end_exclusive": "2026-07-29",
-  "refit_for_test_2": false,
+  "refit_for_test_2": true,
+  "test_2_fit_end_exclusive": "2026-08-09",
   "development_screen_folds": ["F02", "F03", "F04"],
   "development_screen_seeds": [2026082501, 2026082502],
   "seed": 2026082501,

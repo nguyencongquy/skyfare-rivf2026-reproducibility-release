@@ -1,0 +1,43 @@
+{
+  "analysis": "Post-review learned comparators",
+  "fit_end_exclusive": "2026-07-29",
+  "refit_for_test_2": false,
+  "development_screen_folds": ["F02", "F03", "F04"],
+  "development_screen_seeds": [2026082501, 2026082502],
+  "seed": 2026082501,
+  "development_selection": "Equal mean of the six archived fold-seed scores in each CPU candidate family. CatBoost was the CPU multi-quantile comparator.",
+  "models": {
+    "CLASSIFICATION": {
+      "candidate_id": "C24_LGBM_L63_D006_MARKET",
+      "family": "LGBM_CLASS",
+      "configuration": "L63_D006_MARKET",
+      "window": "EXPANDING",
+      "development_metric": "proper_score",
+      "development_score": 0.865972289251796
+    },
+    "POINT": {
+      "candidate_id": "R24_LGBM_L63_L1",
+      "family": "LGBM_POINT",
+      "configuration": "L63_L1",
+      "window": "EXPANDING",
+      "development_metric": "mape",
+      "development_score": 0.07360630673302894
+    },
+    "DISTRIBUTION": {
+      "candidate_id": "D24_CAT_Q7_D7",
+      "family": "CAT_MULTIQUANTILE",
+      "configuration": "D7",
+      "window": "EXPANDING",
+      "development_metric": "wis",
+      "development_score": 0.04393402838865927
+    },
+    "RANKING": {
+      "candidate_id": "K24_LGBM_XENDCG_R84_L63",
+      "family": "LGBM_XENDCG",
+      "configuration": "L63",
+      "window": "RECENT84",
+      "development_metric": "ndcg5",
+      "development_score": 0.8339595177339915
+    }
+  }
+}

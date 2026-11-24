@@ -113,7 +113,7 @@ def main() -> None:
         files = {str(path.relative_to(work)): path for path in sorted(inputs.iterdir())}
         files.update({f"src/{name}": ROOT / "src" / name for name in SOURCE_FILES})
         config = "configs/rivf_learned_baselines.json"
-        files[config] = ROOT / config
+        files[config] = ROOT / "configs/rivf_learned_baselines_development_only.json"
         for name, content in (("run.sh", RUN_SCRIPT), ("README.md", README)):
             path = work / name
             path.write_text(content)
