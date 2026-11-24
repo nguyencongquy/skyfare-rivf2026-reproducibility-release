@@ -1,0 +1,15 @@
+{
+  "scraped_at": "2026-01-01T09:01:00+07:00",
+  "session_id": "2026-01-01T09:00:00+07:00",
+  "origin": "AAA",
+  "dest": "BBB",
+  "route": "AAA-BBB",
+  "days_until_departure": 7,
+  "flight_date": "2026-01-08",
+  "airline": "ZZ",
+  "airline_name": "Synthetic Airline",
+  "flight_no": "ZZ000",
+  "departure_time": "2026-01-08T08:00:00+07:00",
+  "price_vnd": 1000000,
+  "data_source": "trip_com"
+}

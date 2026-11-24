@@ -1,0 +1,19 @@
+{
+  "alpha_two_sided": 0.05,
+  "always_buy_equal_day_mean_vnd": 29343.29761758233,
+  "bootstrap_se": 476.2113610105001,
+  "ci95_high": 187.36948739129508,
+  "ci95_low": -1671.2519153197463,
+  "day_blocks": 20,
+  "draws": 10000,
+  "eligible_dates_per_test": {
+    "TEST_1": 10,
+    "TEST_2": 10
+  },
+  "friction_vnd": 50000,
+  "mde_relative": 0.0454668294985722,
+  "mde_vnd": 1334.1467097044756,
+  "mean_model_minus_baseline": -697.7267415776905,
+  "power": 0.8,
+  "strata": 2
+}

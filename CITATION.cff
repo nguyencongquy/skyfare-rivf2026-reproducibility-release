@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software and accompanying study."
+title: "Prospective Evaluation of a Prespecified Multi-Output Airfare Decision-Support System: SkyFare RIVF 2026 Reproducibility Code"
+type: software
+authors:
+  - family-names: "Nguyen"
+    given-names: "Cong-Quy"
+  - family-names: "Ngo"
+    given-names: "Luong-Thanh-Tra"
+  - family-names: "Le"
+    given-names: "Tran-Ngoc-Tran"
+version: "1.0.0"
+date-released: "2026-11-24"
+repository-code: "https://github.com/nguyencongquy/skyfare-rivf2026-reproducibility-release"
+keywords:
+  - airfare forecasting
+  - prospective evaluation
+  - temporal validation
+  - probabilistic forecasting
+  - learning to rank
+  - decision support

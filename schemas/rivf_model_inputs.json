@@ -1,0 +1,322 @@
+{
+  "CLASSIFICATION": {
+    "row_key": {
+      "type": "uint64",
+      "development_only": false
+    },
+    "feature_time": {
+      "type": "timestamp[ns]",
+      "development_only": false
+    },
+    "route": {
+      "type": "string",
+      "development_only": false
+    },
+    "airline": {
+      "type": "string",
+      "development_only": false
+    },
+    "session_label": {
+      "type": "string",
+      "development_only": false
+    },
+    "departure_period": {
+      "type": "string",
+      "development_only": false
+    },
+    "anchor_source": {
+      "type": "string",
+      "development_only": false
+    },
+    "transition": {
+      "type": "string",
+      "development_only": false
+    },
+    "days_until_departure": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "target_dud": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "horizon_gap_days": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "flight_day_of_week": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "flight_month": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "is_peak_period": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "departure_time_sin": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "departure_time_cos": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "log_price_vnd": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "current_relative_log": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "anchor_support_log1p": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "competitor_airline_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "competitor_offer_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "log_current_over_competitor_min": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "log_same_airline_alt_over_current": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_market_change_pct_per_day": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_prior_market_change": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "relative_history_eligible": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "previous_relative_log": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "market_shift_log": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "relative_lag_age_hours": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_relative_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_relative_volatility": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_relative_trend_per_dud_day": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "label_time": {
+      "type": "timestamp[ns]",
+      "development_only": true
+    },
+    "DROP_5PCT": {
+      "type": "binary integer",
+      "development_only": true
+    }
+  },
+  "REGRESSION": {
+    "row_key": {
+      "type": "uint64",
+      "development_only": false
+    },
+    "feature_time": {
+      "type": "timestamp[ns]",
+      "development_only": false
+    },
+    "query_id": {
+      "type": "string",
+      "development_only": false
+    },
+    "prior_anchor_vnd": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "regime": {
+      "type": "string",
+      "development_only": false
+    },
+    "route": {
+      "type": "string",
+      "development_only": false
+    },
+    "airline": {
+      "type": "string",
+      "development_only": false
+    },
+    "model_session_label": {
+      "type": "string",
+      "development_only": false
+    },
+    "departure_period": {
+      "type": "string",
+      "development_only": false
+    },
+    "prior_anchor_source": {
+      "type": "string",
+      "development_only": false
+    },
+    "query_dud": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "flight_day_of_week": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "flight_month": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "is_peak_period": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "departure_time_sin": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "departure_time_cos": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_anchor_log": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_anchor_support_log1p": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_anchor_age_hours": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_market_change_pct_per_day": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_prior_market_change": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_competitor_airline_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_competitor_offer_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_route_min_log_price": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_route_price_spread_log1p": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "history_support_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "is_first_observation": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "previous_relative_log": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "relative_lag_age_hours": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_relative_volatility": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "prior_relative_trend_per_dud_day": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_previous_same_schedule": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_prior_relative_volatility": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_prior_relative_trend": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "template_history_support_count": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "template_previous_relative_log": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "template_lag_age_hours": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "template_prior_relative_volatility": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "template_prior_relative_trend_per_dud_day": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_previous_schedule_template": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_template_relative_volatility": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "has_template_relative_trend": {
+      "type": "numeric",
+      "development_only": false
+    },
+    "label_time": {
+      "type": "timestamp[ns]",
+      "development_only": true
+    },
+    "target_anchor_relative_log": {
+      "type": "numeric",
+      "development_only": true
+    },
+    "target_session_price_vnd": {
+      "type": "numeric",
+      "development_only": true
+    }
+  }
+}

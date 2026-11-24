@@ -1,0 +1,13 @@
+{
+  "canonical_eras": {
+    "FLI_LIBRARY_ERA": {
+      "provider": "Google Flights",
+      "raw_directory": "data/raw/fli",
+      "supplement_directory": "data/raw/google_flights_manual_9g"
+    },
+    "TRIP_COM_BROWSER_ERA": {
+      "provider": "Trip.com",
+      "raw_directory": "data/raw/trip_com"
+    }
+  }
+}
